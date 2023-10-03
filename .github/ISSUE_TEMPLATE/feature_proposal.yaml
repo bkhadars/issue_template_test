@@ -1,0 +1,59 @@
+name: 🚀 Feature proposal
+description: Project proposal for Sangam-AI 
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ❗ **Before you fill in this proposal template**
+        Please search open/closed issues before submitting. The Idea might be already included or could be proposed before.
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Please describe the Idea you would like to implement.
+      description: Please provide abstraction of the new feature you want to propose. This could be a component, utility, or new documentation for an existing feature.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: 🤔 What Problem does the Idea solves?
+      description: |
+        Explain why you think this feature should be implement.
+    validations:
+      required: true
+  - type: textarea
+    id: example-solution
+    attributes:
+      label: 📚 Example solution.
+      description: Include here prototypes, examples, code or research that support your proposal.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: ℹ️ Additional Information.
+      description: Include here other resources like links or screenshots to help us better understand the proposal.
+    validations:
+      required: false
+  - type: dropdown
+    id: team
+    attributes:
+      label: Team
+      description: Choose team
+      options:
+        - Power
+        - zSystems
+        - Storage
+        - GESD
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Choose Area
+      options:
+        - DefectAnalysis
+        - Documentation
+        - LogAnalysis
+        - CodeAssistReview
+        - Misc
